@@ -1,0 +1,14 @@
+node_modules/
+client/dist/
+server/bin/
+server/tmp/
+.runtime/
+exports/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.idea/
+.vscode/
+.history/

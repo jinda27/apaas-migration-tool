@@ -1,0 +1,22 @@
+{
+  "name": "apaas-migration-tool",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "20.x"
+  },
+  "workspaces": [
+    "client"
+  ],
+  "scripts": {
+    "dev": "bash ./script/restart.sh",
+    "restart": "bash ./script/restart.sh",
+    "stop": "bash ./script/restart.sh --stop",
+    "build": "bash ./scripts/run.sh build",
+    "check": "bash ./scripts/run.sh check"
+  },
+  "dependencies": {
+    "playwright-core": "^1.65.1"
+  }
+}
